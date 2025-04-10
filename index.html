@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vida Equilibrada</title>
+  <meta name="description" content="Artigos, receitas e dicas de saúde física e mental para uma vida equilibrada.">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <header>
+    <div class="header-title">
+      <h1>Vida Equilibrada</h1>
+      <p>Saúde física e mental em harmonia para o seu bem-estar</p>
+    </div>
+    <div class="divider"></div>
+    <nav>
+      <div class="menu-toggle" onclick="toggleMenu(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#alimentacao">Alimentação</a></li>
+        <li><a href="#exercicios">Exercícios</a></li>
+        <li><a href="#beleza">Saúde</a></li>
+        <li><a href="#mental">Saúde Mental</a></li>
+        <li><a href="#beleza">Beleza</a></li>
+        <li><a href="#beleza">Bem Estar</a></li>
+        <li><a href="#beleza">Família</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Cuide do corpo e da mente</h2>
+    <p>Artigos, dicas e receitas para uma vida saudável e equilibrada.</p>
+  </section>
+
+  <section class="section">
+    <h3>Destaques</h3>
+    <div class="articles">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?healthy-food" alt="Alimentação Saudável">
+        <div class="card-content">
+          <h4>Alimentos que fortalecem o sistema imunológico</h4>
+          <p>Descubra quais alimentos ajudam a manter seu corpo protegido naturalmente.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?meditation" alt="Meditação">
+        <div class="card-content">
+          <h4>Como a meditação pode reduzir o estresse</h4>
+          <p>Práticas simples de respiração que promovem saúde mental e foco diário.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?fitness" alt="Exercícios físicos">
+        <div class="card-content">
+          <h4>Treinos rápidos para fazer em casa</h4>
+          <p>Exercícios eficazes para manter o corpo ativo mesmo com pouco tempo.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?fruit" alt="Frutas e saúde">
+        <div class="card-content">
+          <h4>Frutas que ajudam na digestão</h4>
+          <p>Veja quais frutas são indicadas para melhorar seu sistema digestivo.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?yoga" alt="Yoga e relaxamento">
+        <div class="card-content">
+          <h4>Yoga para iniciantes</h4>
+          <p>Aprenda as posturas básicas para começar a praticar yoga em casa.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?vitamins" alt="Vitaminas essenciais">
+        <div class="card-content">
+          <h4>Vitaminas essenciais para o corpo</h4>
+          <p>Entenda a importância das vitaminas e onde encontrá-las na alimentação.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vida Equilibrada. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    function toggleMenu(toggle) {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active');
+      toggle.classList.toggle('open');
+    }
+  </script>
+</body>
+
+</html>
