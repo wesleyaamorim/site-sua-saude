@@ -28,7 +28,7 @@
     header {
       background-color: var(--cor-primaria);
       color: #fff;
-      padding: 1rem 2rem;
+      padding: 4px 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -60,7 +60,7 @@
     .divider {
       width: 100%;
       border-top: 1px solid #c8e6c9;
-      margin: 0.5rem 0 1rem;
+      margin: 8px 0 4px;
     }
 
     nav {
@@ -73,6 +73,8 @@
 
     .menu-toggle {
       display: none;
+      position: relative;
+      right: -196px;
       flex-direction: column;
       cursor: pointer;
       transition: transform 0.3s ease;
@@ -81,7 +83,7 @@
     .menu-toggle span {
       height: 3px;
       background: #fff;
-      margin: 4px 0;
+      margin: 2px 0;
       width: 25px;
       transition: all 0.3s ease;
     }
@@ -95,7 +97,7 @@
     nav ul li a {
       color: #fff;
       text-decoration: none;
-      padding: 0.5rem;
+      padding: 2px 8px 8px 8px;
       font-weight: 500;
       transition: background 0.3s;
     }
@@ -109,7 +111,7 @@
       background-image: url('imagens/prato saudável.png');
       color: #333;
       text-align: center;
-      padding: 4rem 2rem;
+      padding: 8px 8px;
     }
 
     .hero h2 {
@@ -190,11 +192,15 @@
         opacity: 0;
         transform: translateY(-10px);
         transition: all 0.3s ease;
+        border-radius: 6px;
       }
 
       nav ul.active {
         display: flex;
         opacity: 1;
         transform: translateY(0);
+      }
+      li.ico-familia {
+        padding-bottom: 5px;
       }
     }
