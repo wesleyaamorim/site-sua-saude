@@ -69,16 +69,16 @@
       max-width: 1200px;
       display: flex;
       justify-content: center;
+      right: auto;
     }
 
     .menu-toggle {
       display: none;
-      position: relative;
-      right: -196px;
+      position: right;
       flex-direction: column;
       cursor: pointer;
       transition: transform 0.3s ease;
-      }
+    }
 
     .menu-toggle span {
       height: 3px;
@@ -97,7 +97,7 @@
     nav ul li a {
       color: #fff;
       text-decoration: none;
-      padding: 2px 8px 8px 8px;
+      padding: 0px 8px 0px 8px;
       font-weight: 500;
       transition: background 0.3s;
     }
@@ -105,6 +105,7 @@
     nav ul li a:hover {
       background: var(--cor-hover);
       border-radius: 5px;
+      display: block;
     }
 
     .hero {
