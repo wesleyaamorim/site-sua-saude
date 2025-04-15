@@ -27,6 +27,7 @@
 
     header {
       background-color: var(--cor-primaria);
+      background-size: cover; /* cabeçalho fixo*/
       color: #fff;
       padding: 4px 20px;
       display: flex;
