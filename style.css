@@ -106,10 +106,9 @@
     nav ul li a:hover {
       background: var(--cor-hover);
       border-radius: 5px;
-      display: block;
+      display: block;            
     }
 
-   
     .hero {
       background-image: url('imagens/prato saudável.png');
       color: #333;
