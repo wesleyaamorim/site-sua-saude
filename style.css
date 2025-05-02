@@ -36,7 +36,7 @@
       position: sticky;
       top: 0;
       z-index: 999;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease;      
     }
 
     .header-title {
@@ -68,14 +68,15 @@
       position: relative;
       width: 100%;
       max-width: 1200px;
-      display: flex;
+      display:list-item;      
       justify-content: center;
       right: auto;
     }
 
     .menu-toggle {
       display: none;
-      position: right;
+      position: absolute;
+      right: 0;      
       flex-direction: column;
       cursor: pointer;
       transition: transform 0.3s ease;
@@ -101,6 +102,9 @@
       padding: 0px 8px 0px 8px;
       font-weight: 500;
       transition: background 0.3s;
+      text-align: center;
+      display: block;
+
     }
 
     nav ul li a:hover {
@@ -114,7 +118,7 @@
       max-width: 800px;
       margin: auto;
       background-color: var(--cor-secao);
-      box-shadow: 2px 2px 10px black;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.452);
     }
 
     main h1 {
