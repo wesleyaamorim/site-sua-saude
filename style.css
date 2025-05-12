@@ -37,7 +37,7 @@
       top: 0;
       z-index: 999;
       transition: background-color 0.3s ease;   
-      padding: 25px;   
+      padding: 0px;   
     }
 
     .header-title {
@@ -71,11 +71,12 @@
       max-width: 1200px;            
       justify-content: center;
       right: auto; 
+      position: relative;
     }
 
     .menu-toggle {
       display: none;
-      position: absolute;
+      position: relative;
       right: 0;      
       flex-direction: column;
       cursor: pointer;
